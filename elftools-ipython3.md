@@ -31,7 +31,7 @@ In [6]: s.get_symbol_by_name("linux_banner")
 Out[6]: [<elftools.elf.sections.Symbol at 0x7f3bf1b88048>]
 ```
 
-3) Get all symbols with name 'linux_banner' in section `.symtab`
+3) Get all symbols with name `linux_banner` in section `.symtab`
 ```python
 In [7]: banner = s.get_symbol_by_name("linux_banner")
 
