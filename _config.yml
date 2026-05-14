@@ -4,7 +4,7 @@ author: xvirgov
 url: "https://xvirgov.ch"
 
 # Theme — a clean terminal aesthetic
-remote_theme: b2a/jekyll-theme-console
+remote_theme: b2a3e8/jekyll-theme-console
 
 # Plugins (allowed on GitHub Pages)
 plugins:
