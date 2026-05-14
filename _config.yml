@@ -1,0 +1,27 @@
+title: xvirgov
+description: notes on computer security
+author: xvirgov
+url: "https://xvirgov.ch"
+
+# Theme — a clean terminal aesthetic
+remote_theme: b2a/jekyll-theme-console
+
+# Plugins (allowed on GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Permalink format: /YYYY/MM/post-title/
+permalink: /:year/:month/:title/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
